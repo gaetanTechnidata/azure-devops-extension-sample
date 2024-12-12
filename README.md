@@ -1,7 +1,5 @@
 # Azure DevOps Web Sample Extension
 
-[![Build Status](https://dev.azure.com/ms/azure-devops-extension-sample/_apis/build/status/Microsoft.azure-devops-extension-sample)](https://dev.azure.com/ms/azure-devops-extension-sample/_build/latest?definitionId=14)
-
 This repository generates an [Azure DevOps extension](https://docs.microsoft.com/en-us/azure/devops/extend/overview?view=vsts) containing a number of different contributions of various types.
 
 ## Dependencies
@@ -75,6 +73,33 @@ Here are samples for the [most common hub contributions](https://learn.microsoft
 - Portfolio backlog pane - [portfolio-backlog-toolpane](src/Samples/backlog-toolpane)
 - Product backlog pane - [requirement-backlog-toolpane](src/Samples/backlog-toolpane)
 - Iteration backlog pane - [iteration-backlog-toolpane](src/Samples/backlog-toolpane)
+
+## Azure Pipelines menu and toolbar
+
+- Completed build menu - [completed-build-menu](src/Samples/completed-build-menu)
+- Build definitions menu - [build-definitions-menu](src/Samples/build-definitions-menu)
+- Test results toolbar action - [test-results-actions-menu](src/Samples/test-results-actions-menu)
+- Test result details tab - [test-result-details-tab-items](src/Samples/test-result-details-tab-items)
+- Release pipeline explorer context menu - [release-definition-explorer-context-menu](src/Samples/release-definition-explorer-context-menu)
+- Pipeline details view, header button - [pipelines-header-menu](src/Samples/pipelines-header-menu)
+- Pipeline details view, folder context menu - [pipelines-folder-menu](src/Samples/pipelines-folder-menu)
+
+## Azure Repos menu and toolbar
+
+- Source item (grid) menu - [source-grid-item-menu](src/Samples/source-grid-item-menu)
+- Source item (tree) menu - [source-tree-item-menu](src/Samples/source-tree-item-menu)
+- Source item (grid and tree) menu - [source-item-menu](src/Samples/source-item-menu)
+- Git branches tree menu - [git-branches-tree-menu](src/Samples/git-branches-tree-menu)
+- Git pull request actions menu - [pull-request-action-menu](src/Samples/pull-request-action-menu)
+- Git pull request details tabs - [pr-tabs](src/Samples/pr-tabs)
+- Git commit listing menu - [git-commit-list-menu](src/Samples/git-commit-list-menu)
+- Git commit detail menu - [git-commit-details-menu](src/Samples/git-commit-details-menu)
+
+## Azure Test Plans menu and toolbar
+
+- Test run grid menu - [test-run-grid-menu](src/Samples/test-run-grid-menu)
+- Test plan suites tree menu - [test-plans-suites-context](src/Samples/test-plans-suites-context)
+- Test plan hub pivot tab - [test-plan-pivot-tabs](src/Samples/test-plan-pivot-tabs)
 
 ## Dashboard widgets
 
